@@ -1,0 +1,64 @@
+* {
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body{
+width: 100%;
+height: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #fbb5c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.p-img{
+    filter: drop-shadow(-35px 10px 35px  #312226c8);
+    position: relative;
+}
+.con{
+    width: 300px;
+    height: 200px;
+    /* background-color: rgb(0, 0, 0); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(21%, -50%);
+    /* background-color: red; */
+    overflow: hidden;
+}
+.container{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    padding: 0 70px  0 0px;
+    border-top: 2px solid #fa4267;
+    border-right: 2px solid #fa4267;
+    top: 50%;
+    left: 50%;
+    transform: translate(-200%, -50%);
+    overflow: hidden;
+}
+.title {
+    padding: 10px 0;
+    font-family: Knewave;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fa4267;
+    padding-left: 10px;
+} 
+.title span{
+    font-size: 20px;
+    padding-bottom: 50px;
+}  
+.desc {
+    padding: 30px 10px;
+    font-family: Knewave;
+    color: #4a4a4a;
+}
